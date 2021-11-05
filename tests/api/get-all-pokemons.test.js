@@ -5,6 +5,9 @@ const api = supertest(app);
 //jest.mock("../utils/csvOperations");
 
 describe("Tests to get the list of pokemons", () => {
+  beforeEach(async () => {
+    jest.resetAllMocks();
+  });
   const initialPokemon = [
     {
       "#": "1",

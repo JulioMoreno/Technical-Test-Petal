@@ -8,9 +8,9 @@ const updatePokemonSchema = require("./../utils/validators/schemas/edit-pokemon-
 const {
   mappingPokemonProfile,
 } = require("./../utils/mappers/new-pokemon-mapper");
-const { NODE_ENV, FILE, FILE_TEST } = process.env;
+const { NODE_ENV, FILE } = process.env;
 
-const path = NODE_ENV === "test" ? FILE_TEST : FILE;
+const path = FILE;
 
 exports.checkRequests = (req, res, next) => {
   const selectedSchema =
