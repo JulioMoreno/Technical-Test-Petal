@@ -1,0 +1,56 @@
+{
+    "$id": "edit-pokemon",
+    "description": "describes properties required to create a pokemon",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "Name of the pokemon"
+      },
+      "typeOne": {
+        "type": "string",
+        "description": "Type 1 of the pokemon"
+      },
+      "typeOne": {
+        "type": "string",
+        "description": "Type 2 of the pokemon"
+      },
+      "total": {
+        "type": "number",
+        "description": "Total of the pokemon"
+      },
+      "hp": {
+        "type": "number",
+        "description": "HP of the pokemon"
+      },
+      "attack": {
+        "type": "number",
+        "description": "Attack of the pokemon"
+      },
+      "defense": {
+        "type": "number",
+        "description": "Defense of the pokemon"
+      },
+      "spAtk": {
+        "type": "number",
+        "description": "Sp. Atk of the pokemon"
+      },
+      "spDef": {
+        "type": "number",
+        "description": "Sp. Def of the pokemon"
+      },
+      "speed": {
+        "type": "number",
+        "description": "Speed of the pokemon"
+      },
+      "generation": {
+        "type": "number",
+        "description": "Generation of the pokemon"
+      },
+      "legendary": {
+        "type": "boolean",
+        "description": "Legendary of the pokemon"
+      }
+    },
+    "required": []
+  }
