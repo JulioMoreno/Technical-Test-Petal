@@ -53,6 +53,24 @@ This command will start the server to consume all the endpoints
 This command will run all the unit tests
 
 ### `Evidence`
+
+Example payload:
+
+{
+    "name": "New Pokemon",
+    "typeOne": "One",
+    "typeTwo": "Two",
+    "total": 18,
+    "hp": 45,
+    "attack": 49,
+    "defense": 49,
+    "spAtk": 65,
+    "spDef": 65,
+    "speed": 45,
+    "generation": 1,
+    "legendary": true
+}
+
 ![Screen Shot 2021-11-05 at 0 11 25](https://user-images.githubusercontent.com/10692925/140474047-3c23d52e-2e40-429c-aa91-5a5e64b7cf0f.png)
 
 ![Screen Shot 2021-11-05 at 0 13 22](https://user-images.githubusercontent.com/10692925/140474077-3e493708-4af4-4848-9c88-17f1dc74b45f.png)
